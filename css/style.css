@@ -1,0 +1,22 @@
+.muestras {
+    overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ropaItem {
+    border-radius: 25px;
+    width: 170px;
+    min-width: 170px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5%;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
