@@ -1,14 +1,23 @@
+.muestras_conteiner {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
 .muestras {
     overflow-x: scroll;
-    width: 100%;
+    width: 75%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 .ropaItem {
-    border-radius: 25px;
-    width: 170px;
     min-width: 170px;
     font-size: 20px;
     cursor: pointer;
