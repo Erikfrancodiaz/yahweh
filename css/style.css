@@ -15,4 +15,34 @@
     width: 300px;
     height: 300px;
     
+.muestras_conteiner {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+.muestras {
+    overflow-x: scroll;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ropaItem {
+    min-width: 170px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5%;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
 }
