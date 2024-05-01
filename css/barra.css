@@ -1,0 +1,19 @@
+.logo {
+    border: 1px solid blue;
+    width: 100% ;
+    height: 100px;
+    background-color: rgb(255, 255, 177);
+    position: fixed;
+    margin-top: 0px;
+}
+.yahweh {
+    position: absolute;
+    background-image: url(../img/Yahwéh-transparente.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-top: -100px;
+    
+    width: 300px;
+    height: 300px;
+}
